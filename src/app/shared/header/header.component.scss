@@ -1,0 +1,43 @@
+button{
+    border-radius:24px;
+    width : 120px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.signup{
+    background-color: #51b310;
+    color : white;
+}
+
+.login{
+    color:#51b310;
+    background-color:white;
+}
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.navbar{
+    background-color: white;
+}
+.div-span{
+    justify-content: space-between;
+}
+span{
+    font-size: 14px;
+    display: inline-block;
+    margin: 30px;
+    color: lightgray;
+}
+.app-logo{
+    color:#51b310 ;
+    font-size: 40px;
+    font: Ubuntu;
+    font-weight: lighter;
+    
+    
+    
+}
