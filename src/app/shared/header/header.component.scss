@@ -1,8 +1,11 @@
 button{
-    border-radius:24px;
+    border-radius:20px;
     width : 120px;
-    font-size: 12px;
+    font-size: 15px;
     margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 1px;
 }
 
 .signup{
@@ -27,7 +30,7 @@ button{
     justify-content: space-between;
 }
 span{
-    font-size: 14px;
+    font-size: 18px;
     display: inline-block;
     margin: 30px;
     color: lightgray;

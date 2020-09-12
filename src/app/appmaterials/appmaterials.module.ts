@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
-const appmaterials = [MatToolbarModule,MatButtonModule,MatSidenavModule]
+import {MatDividerModule} from '@angular/material/divider';
+const appmaterials = [MatToolbarModule,MatButtonModule,MatSidenavModule,MatDividerModule]
 
 
 @NgModule({

@@ -1,26 +1,32 @@
-.paragraph{
-    width: 600px;
+.container{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 50px;
+    position: absolute;
+    overflow-x: hidden;
+    z-index: 1;
+    height: 100%;
+}
+
+.content{
+    left: 0;
 }
 
 p{
     font-size: 22px;
     color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.parag1{
-    margin-top: 80px;
-}
-
-.parag2{
-    margin-top: 40px;
-}
 button{
     border-radius: 24px;
     background-color: #51b310;
     color: white;
-    border-color: #51b310;
-    width: 150px;
+    width: 250px;
     margin-top: 40px;
+    outline: none;
+    border: 1px solid #51b310;
+    cursor: pointer;
 
     
 }
@@ -28,35 +34,39 @@ a{
     color: #51b310;
     margin-left: 10px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
 
 h3{
     color: #51b310;
-}
-.container{
-    height: 100%;
-    margin: 50px;
-    margin-top: 80px;
-    margin-left: 50px;
-}
-.title{
-    font-size: 60px;
-    color:#155746;
-    margin-top: 10px;
-}
-.title-container{
-    margin-top: 70px;
+    font-size: 20px;
 }
 
-.body-container{
-    margin-top: 40px;
+.title-container p{
+    margin: 10px 0 30px;
+    font-size: 80px;
+    color:#155746;
+    line-height: 80px;
+}
+
+.body-container p{
+    margin-top: 60px;
+    padding: 2px;
+    line-height: 22px;
 }
 
 .title2{
     margin-top: 40px;
     font-size: 70px;
     color:#155746;
+}
+
+.image{
+ right: 0;
+
+}
+.up{
+    height: 100%;
 }
